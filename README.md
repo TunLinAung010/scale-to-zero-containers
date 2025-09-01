@@ -1,6 +1,6 @@
 # Scale to Zero containers management 
 
-Hi everyone, I would like to share you that i deploy scale to zero containers management using lightweight tools ( Salbier ).
+Hi everyone, I would like to share you that i deploy scale to zero containers management using lightweight tools ( Salbier ) and nginx proxy services.
 
 # Deploy Sablier on docker swarm
 sablier-stack.yml
@@ -26,6 +26,11 @@ networks:
     external: true
 
 ```
+# Nginx proxy server with Sablier plugin
+```
+ docker run -dit   --name sablier   --network s-net   -v /var/run/docker.sock:/var/run/docker.sock   tlaburma101/nginx-sablier   start --provider.name=docker
+```
+
 # Deploy Portainer services with Sablier label
 
 ```
