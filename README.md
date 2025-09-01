@@ -28,7 +28,7 @@ networks:
 ```
 # Nginx proxy server with Sablier plugin
 ```
- docker run -dit   --name sablier   --network s-net   -v /var/run/docker.sock:/var/run/docker.sock   tlaburma101/nginx-sablier   start --provider.name=docker
+ docker run -dit   --name sablier   --network s-net   -v /var/run/docker.sock:/var/run/docker.sock   tlaburma101/nginx-sablier:1.9.0   start --provider.name=docker
 ```
 
 # Deploy Portainer services with Sablier label
