@@ -1,6 +1,6 @@
 # Scale to Zero containers management 
 
-Hi everone, i would like to share you that i deploy scale to zero containers management using lightweight tools ( Salbier ).
+Hi everyone, I would like to share you that i deploy scale to zero containers management using lightweight tools ( Salbier ).
 
 # Deploy Sablier on docker swarm
 sablier-stack.yml
