@@ -9,7 +9,7 @@ version: "3.8"
 
 services:
   sablier:
-    image: sablierapp/sablier:1.9.0
+    image: tlaburma101/nginx-sablier:1.9.0
     networks:
       - sablier-net
     deploy:
